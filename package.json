@@ -1,0 +1,27 @@
+{
+  "name": "galecss",
+  "version": "0.0.1",
+  "description": "Minimal CSS utility library for breezy styling",
+  "main": "build.js",
+  "scripts": {
+    "gale:build": "node build.js",
+    "gale:validate": "echo coming soon"
+  },
+  "keywords": [
+    "gale",
+    "css",
+    "galecss",
+    "tailwind",
+    "utility"
+  ],
+  "author": "Bayrock",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.21",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^7.8.3",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}
