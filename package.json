@@ -1,16 +1,16 @@
 {
-  "name": "galecss",
+  "name": "pinwheelcss",
   "version": "0.0.1",
-  "description": "Minimal CSS utility library for breezy styling",
+  "description": "Essential CSS utility library for breezy styling",
   "main": "build.js",
   "scripts": {
-    "gale:build": "node build.js",
-    "gale:validate": "echo coming soon"
+    "pinwheel:build": "node build.js",
+    "pinwheel:validate": "echo coming soon"
   },
   "keywords": [
-    "gale",
+    "pinwheel",
     "css",
-    "galecss",
+    "pinwheelcss",
     "tailwind",
     "utility"
   ],

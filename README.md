@@ -1,9 +1,12 @@
-# galecss (WIP)
+# pinwheelcss (WIP)
 
-Minimal CSS utility library for breezy styling
+Essential CSS utility library for breezy styling
 
-### Usage:
+### Getting Started:
 *coming soon*
 
 #### Built with the following technologies:
 * [PostCSS](https://postcss.org/) - CSS build tool
+
+##### A full list of dependencies can be seen [here](https://github.com/bayrock/pinwheelcss/network/dependencies).
+

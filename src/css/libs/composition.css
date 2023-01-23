@@ -1,0 +1,12 @@
+/* Display */
+.flex { display: flex; }
+.block { display: block; }
+.hidden { display: none; }
+
+/* Visibility */
+.visible { visibility: visible; }
+.invisible { visibility: hidden; }
+.collapse { visibility: collapse; }
+
+/* Flexbox */
+.self-center { align-self: center; }

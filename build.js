@@ -4,9 +4,9 @@ const { plugins } = require('./postcss.config')
 const schema = require('./package.json')
 
 const config = Object.freeze({
-    source: 'src/gale.css',
+    source: 'src/css/pinwheel.pcss',
     directory: `dist/@${schema.version}`,
-    filename: `gale.min.css`
+    filename: `pinwheel.min.css`
 })
 
 const path = `${config.directory}/${config.filename}`
