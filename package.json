@@ -4,6 +4,7 @@
   "description": "Essential CSS utility library for breezy styling",
   "main": "build.js",
   "scripts": {
+    "start": "node .",
     "pinwheel:build": "node build.js",
     "pinwheel:validate": "echo coming soon"
   },
