@@ -1,32 +1,34 @@
 const presetenv = require('postcss-preset-env')
 
-const plugins = Object.freeze([
+const defaults = Object.freeze([
     require('postcss-import'),
     require('postcss-simple-vars'),
-    require('postcss-for'),
-    require('cssnano')({preset: 'default'})
+    require('postcss-for')
 ])
 
 module.exports = {
-    defaults: plugins,
+    plugins: defaults,
+    minify: [
+        require('cssnano')({preset: 'default'})
+    ],
     aspirational: [
-        ...plugins,
-        presetenv({stage: 0}),
+        ...defaults,
+        presetenv({stage: 0})
     ],
     experimental: [
-        ...plugins,
-        presetenv({stage: 1}),
+        ...defaults,
+        presetenv({stage: 1})
     ],
     allowable: [
-        ...plugins,
-        presetenv({stage: 2}),
+        ...defaults,
+        presetenv({stage: 2})
     ],
     embraced: [
-        ...plugins,
-        presetenv({stage: 3}),
+        ...defaults,
+        presetenv({stage: 3})
     ],
     stable: [
-        ...plugins,
-        presetenv({stage: 4}),
+        ...defaults,
+        presetenv({stage: 4})
     ]
 }

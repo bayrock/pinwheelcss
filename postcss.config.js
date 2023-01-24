@@ -1,5 +1,5 @@
-const { defaults } = require('./postcss.presets')
+const { minified } = require('./postcss.presets')
 
 module.exports = {
-    plugins: defaults
+    plugins: minified
 }
