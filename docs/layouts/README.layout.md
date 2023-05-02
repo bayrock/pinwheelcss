@@ -18,8 +18,9 @@
 
 ------
 
-{GETSTARTED}
+{GETSTARTED.md}
 
 #### Built with the following technologies:
 * [PostCSS](https://postcss.org/) - CSS build tool
+* [DocPotion](https://github.com/bayrock/DocPotion) - Documentation build tool
 ##### A full list of dependencies can be seen [here](https://github.com/bayrock/pinwheelcss/network/dependencies).

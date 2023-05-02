@@ -128,3 +128,6 @@ dist
 
 # todo
 todo.yml
+
+# DocPotion
+DocPotion.exs

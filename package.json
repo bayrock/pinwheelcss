@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node .",
     "pinwheel:build": "node build.js",
-    "pinwheel:build:docs": "cd docs && elixir DocBuilder.exs",
+    "pinwheel:build:docs": "elixir DocPotion.exs",
     "pinwheel:validate": "echo coming soon"
   },
   "keywords": [
